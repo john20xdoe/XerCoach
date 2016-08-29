@@ -6,6 +6,9 @@
 	<!--Animations init-->
 	new WOW().init();
 
+	var exers = [];
+
+
 	// var user = {};
 	// var $home = $(".row#home");
 	// var $exers = $(".row#exers");
@@ -42,14 +45,14 @@ function User(username){
 
 // };
 
-// var Exercise = new function(exercise_name){
-// 	this.id = 0;
-// 	this.displayName = exercise_name;
-// 	this.sequenceNumber =
-// 	this.prepTimeinMS = 0;
-// 	this.sets = 0;
-// 	this.setRestInMS = 0;
-// 	this.reps = 0;
-// 	this.repsRestinMS = 0;
-// 	this.stats = [];
-// }
+var Exercise = new function(exercise_name){
+	this.id = 0;
+	this.displayName = exercise_name;
+	this.sequenceNumber = 0;
+	this.prepTimeinMS = 0;
+	this.sets = 0;
+	this.setRestInMS = 0;
+	this.reps = 0;
+	this.repsRestinMS = 0;
+	this.stats = [];
+}

@@ -57,6 +57,7 @@ body {
   visibility: hidden !important;
 }
 
-main {
-  min-height: 100%;
+
+form.frmAddNew {
+    font-size: 10px;
 }
