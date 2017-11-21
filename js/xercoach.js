@@ -3,7 +3,6 @@
 (function() {
 	'use strict';
 
-	<!--Animations init-->
 	new WOW().init();
 
 	var exers = [];
@@ -23,7 +22,7 @@
 	$("form#frmAddNew").submit(function(e){
 		e.preventDefault();
 	});
-	$("#btnAddNew").click(function(){
+	$("#add-new-button").click(function(){
 		var x = $("form#frmAddNew").serializeArray();
 		var exer = {};
  	   	$.each(x, function(i, field){
@@ -60,4 +59,9 @@ function Exercise(formData){
 	this.reps = formData.reps;
 	this.repsRestinMS = formData.repsRestinMS;
 	this.stats = [];
+}
+
+function saveToLocalStorage(exercise){
+
+
 }
